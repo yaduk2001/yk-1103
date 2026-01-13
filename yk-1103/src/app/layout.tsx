@@ -9,6 +9,11 @@ const jetbrainsMono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-mon
 export const metadata: Metadata = {
   title: 'YK-1103',
   description: 'Deterministic Reversible Encryption System by YK',
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    viewportFit: 'cover', // Enable safe-area-inset for curved displays
+  },
 };
 
 export default function RootLayout({
