@@ -1758,7 +1758,7 @@ body {
 
   /* Hero Section */
   .hero-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .hero-tagline {
@@ -1768,6 +1768,7 @@ body {
 
   .hero-description-text {
     font-size: 0.95rem;
+    padding: 0 1rem;
   }
 
   .cta-button {
@@ -1775,29 +1776,39 @@ body {
     font-size: 0.9rem;
   }
 
-  /* Content Sections */
+  /* Content Sections - Increased padding */
   .content-section {
-    padding: 2rem 1rem;
+    padding: 2rem 1.5rem;
+    margin: 0;
+  }
+
+  .text-block {
+    padding: 0 0.5rem;
   }
 
   .section-title {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    padding: 0 0.5rem;
   }
 
-  /* Grids - Single Column */
+  /* Grids - Single Column with margins */
   .features-grid,
   .philosophy-grid,
   .security-grid,
-  .info-grid {
+  .info-grid,
+  .skills-grid {
     grid-template-columns: 1fr;
     gap: 1rem;
+    margin: 0;
+    padding: 0;
   }
 
   .feature-item,
   .philosophy-card,
   .security-card,
-  .info-item {
-    padding: 1.5rem;
+  .info-item,
+  .skill-card {
+    padding: 1.25rem;
   }
 
   /* Stats */
@@ -1920,7 +1931,7 @@ body {
 
   /* Footer */
   .footer {
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 1.5rem;
     font-size: 0.75rem;
   }
 
@@ -1943,31 +1954,95 @@ body {
     width: 150px;
     height: 150px;
   }
+
+  /* Creator Page Mobile */
+  .bio-lead {
+    font-size: 1.1rem;
+    padding: 0 0.5rem;
+  }
+
+  .philosophy-quote blockquote {
+    font-size: 1.1rem;
+    padding: 1.5rem;
+  }
+
+  .tech-tags {
+    gap: 0.5rem;
+    padding: 0 0.5rem;
+  }
+
+  .tech-tag {
+    font-size: 0.75rem;
+    padding: 0.4rem 1rem;
+  }
+
+  .mission-statement p {
+    font-size: 1rem;
+    padding: 0 0.5rem;
+  }
+
+  .status-terminal {
+    font-size: 0.75rem;
+    padding: 0.75rem 1rem;
+  }
 }
 
 /* Small Mobile */
 @media (max-width: 480px) {
   .hero-title {
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
 
   .page-title {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 
   .nav-link {
-    font-size: 0.65rem;
-    padding: 0.35rem 0.6rem;
+    font-size: 0.6rem;
+    padding: 0.3rem 0.5rem;
   }
 
   .status-badge {
-    font-size: 0.6rem;
-    padding: 0.4rem 0.75rem;
+    font-size: 0.55rem;
+    padding: 0.35rem 0.6rem;
   }
 
   .feature-icon,
   .security-icon,
-  .info-icon {
-    font-size: 2rem;
+  .info-icon,
+  .skill-icon {
+    font-size: 1.75rem;
+  }
+
+  .feature-title,
+  .skill-card h3,
+  .philosophy-card h3 {
+    font-size: 1rem;
+  }
+
+  .feature-desc,
+  .skill-card p,
+  .philosophy-card p {
+    font-size: 0.85rem;
+  }
+
+  .content-section {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .text-block p {
+    font-size: 0.95rem;
+  }
+
+  .section-title {
+    font-size: 1.25rem;
+  }
+
+  .stat-number {
+    font-size: 1.75rem;
+  }
+
+  .stat-label {
+    font-size: 0.7rem;
   }
 }

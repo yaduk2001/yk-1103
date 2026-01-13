@@ -26,7 +26,7 @@ export default function HowItWorksPage() {
                     <h2 className="section-title">System Overview</h2>
                     <div className="text-block">
                         <p>
-                            YK-1103 implements a custom substitution-permutation network (SPN) called the YADU algorithm.
+                            YK-1103 implements a custom substitution-permutation network (SPN) called the YK-1103 algorithm.
                             This cryptographic system transforms plaintext into ciphertext through a series of mathematically
                             reversible operations, all controlled by a 1103-bit ephemeral key.
                         </p>
