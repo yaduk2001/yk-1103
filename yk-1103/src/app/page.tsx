@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import SystemStatus from '../components/SystemStatus';
 
 export default function LandingPage() {
   return (
@@ -55,58 +56,8 @@ export default function LandingPage() {
         </div>
       </div>
 
-      {/* System Status Indicators - Fills gap */}
-      <div className="status-grid-container" style={{ maxWidth: '1000px', margin: '0 auto', padding: '0 1rem', marginBottom: '2rem' }}>
-        <div className="status-grid" style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
-          gap: '1rem',
-        }}>
-          <div className="status-card" style={{
-            background: 'rgba(0, 229, 255, 0.05)',
-            border: '1px solid rgba(0, 229, 255, 0.2)',
-            padding: '1rem',
-            borderRadius: '12px',
-            textAlign: 'center'
-          }}>
-            <div style={{ fontSize: '0.7rem', color: 'var(--accent-cyan)', marginBottom: '0.25rem' }}>SYSTEM</div>
-            <div style={{ fontSize: '0.9rem', fontWeight: 'bold' }}>ONLINE</div>
-          </div>
-
-          <div className="status-card" style={{
-            background: 'rgba(196, 77, 255, 0.05)',
-            border: '1px solid rgba(196, 77, 255, 0.2)',
-            padding: '1rem',
-            borderRadius: '12px',
-            textAlign: 'center'
-          }}>
-            <div style={{ fontSize: '0.7rem', color: 'var(--accent-purple)', marginBottom: '0.25rem' }}>ENCRYPTION</div>
-            <div style={{ fontSize: '0.9rem', fontWeight: 'bold' }}>AES-256</div>
-          </div>
-
-          <div className="status-card" style={{
-            background: 'rgba(77, 121, 255, 0.05)',
-            border: '1px solid rgba(77, 121, 255, 0.2)',
-            padding: '1rem',
-            borderRadius: '12px',
-            textAlign: 'center'
-          }}>
-            <div style={{ fontSize: '0.7rem', color: 'var(--accent-blue)', marginBottom: '0.25rem' }}>NETWORK</div>
-            <div style={{ fontSize: '0.9rem', fontWeight: 'bold' }}>SECURE</div>
-          </div>
-
-          <div className="status-card" style={{
-            background: 'rgba(255, 255, 255, 0.05)',
-            border: '1px solid rgba(255, 255, 255, 0.2)',
-            padding: '1rem',
-            borderRadius: '12px',
-            textAlign: 'center'
-          }}>
-            <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginBottom: '0.25rem' }}>PING</div>
-            <div style={{ fontSize: '0.9rem', fontWeight: 'bold' }}>12ms</div>
-          </div>
-        </div>
-      </div>
+      {/* System Status Indicators - Live Dynamic */}
+      <SystemStatus />
 
       {/* Features Section */}
       <section className="features-section">

@@ -633,7 +633,7 @@ body {
   font-size: 1.1rem;
   color: var(--text-muted);
   max-width: 600px;
-  margin: 0 auto 3rem;
+  margin: 0 auto 1.5rem;
   line-height: 1.8;
   animation: fadeIn 0.6s ease-out 0.3s forwards;
   opacity: 0;
@@ -1759,15 +1759,16 @@ body {
 
   /* Page Content */
   .page-content {
-    padding-top: 90px;
-    min-height: 80vh;
-    /* Ensure content starts higher */
+    padding-top: 70px;
+    min-height: auto;
   }
 
   .landing-container {
-    padding-top: 80px;
+    padding-top: 40px;
     align-items: flex-start;
-    /* Start content from top rather than center */
+    min-height: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   .page-hero {

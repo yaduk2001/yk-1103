@@ -15,7 +15,7 @@ export default function CreatorPage() {
                         <span className="status-dot"></span>
                         CREATOR PROFILE
                     </div>
-                    <h1 className="page-title">YADU KRISHNANS</h1>
+                    <h1 className="page-title">YADU KRISHNA KS</h1>
                     <p className="page-subtitle">
                         The Mind Behind YK-1103
                     </p>
