@@ -15,7 +15,7 @@ export default function CreatorPage() {
                         <span className="status-dot"></span>
                         CREATOR PROFILE
                     </div>
-                    <h1 className="page-title">YADU KRISHNAN</h1>
+                    <h1 className="page-title">YADU KRISHNANS</h1>
                     <p className="page-subtitle">
                         The Mind Behind YK-1103
                     </p>
@@ -65,7 +65,43 @@ export default function CreatorPage() {
                                 <h3>Full-Stack Development</h3>
                                 <p>
                                     From low-level system architecture to beautiful user interfaces—building
-                                    complete solutions from the ground up.
+                                    complete solutions from the ground up with Next.js, React, and Node.js.
+                                </p>
+                            </div>
+
+                            <div className="skill-card">
+                                <div className="skill-icon">☁️</div>
+                                <h3>Cloud Architecture</h3>
+                                <p>
+                                    Designing scalable cloud infrastructure with Firebase, Supabase, and MongoDB.
+                                    Expert in serverless architectures and real-time data synchronization.
+                                </p>
+                            </div>
+
+                            <div className="skill-card">
+                                <div className="skill-icon">📱</div>
+                                <h3>Mobile Development</h3>
+                                <p>
+                                    Building cross-platform mobile applications with Flutter and React Native.
+                                    Creating seamless experiences across iOS and Android platforms.
+                                </p>
+                            </div>
+
+                            <div className="skill-card">
+                                <div className="skill-icon">🗄️</div>
+                                <h3>Database Engineering</h3>
+                                <p>
+                                    Mastery of MongoDB, PostgreSQL, and Firebase Firestore. Optimizing queries,
+                                    designing schemas, and ensuring data integrity at scale.
+                                </p>
+                            </div>
+
+                            <div className="skill-card">
+                                <div className="skill-icon">⚙️</div>
+                                <h3>DevOps & CI/CD</h3>
+                                <p>
+                                    Automating deployments with Vite, implementing continuous integration pipelines,
+                                    and maintaining robust production environments.
                                 </p>
                             </div>
                         </div>
@@ -107,14 +143,44 @@ export default function CreatorPage() {
                         <span className="tech-tag">TypeScript</span>
                         <span className="tech-tag">React</span>
                         <span className="tech-tag">Next.js</span>
+                        <span className="tech-tag">Vite</span>
                         <span className="tech-tag">Node.js</span>
+                        <span className="tech-tag">Express</span>
+                        <span className="tech-tag">Flutter</span>
+                        <span className="tech-tag">React Native</span>
+                        <span className="tech-tag">Firebase</span>
+                        <span className="tech-tag">Supabase</span>
+                        <span className="tech-tag">MongoDB</span>
+                        <span className="tech-tag">PostgreSQL</span>
+                        <span className="tech-tag">Redis</span>
+                        <span className="tech-tag">GraphQL</span>
+                        <span className="tech-tag">REST APIs</span>
+                        <span className="tech-tag">Docker</span>
+                        <span className="tech-tag">Kubernetes</span>
+                        <span className="tech-tag">AWS</span>
+                        <span className="tech-tag">Google Cloud</span>
+                        <span className="tech-tag">Vercel</span>
+                        <span className="tech-tag">Git</span>
+                        <span className="tech-tag">CI/CD</span>
                         <span className="tech-tag">Cryptography</span>
                         <span className="tech-tag">Neural Networks</span>
                         <span className="tech-tag">Deep Learning</span>
                         <span className="tech-tag">Computer Vision</span>
                         <span className="tech-tag">NLP</span>
                         <span className="tech-tag">Data Science</span>
+                        <span className="tech-tag">Pandas</span>
+                        <span className="tech-tag">NumPy</span>
+                        <span className="tech-tag">Scikit-learn</span>
+                        <span className="tech-tag">Keras</span>
+                        <span className="tech-tag">OpenCV</span>
+                        <span className="tech-tag">Tailwind CSS</span>
+                        <span className="tech-tag">Material-UI</span>
+                        <span className="tech-tag">Framer Motion</span>
+                        <span className="tech-tag">WebSockets</span>
+                        <span className="tech-tag">WebRTC</span>
                         <span className="tech-tag">System Design</span>
+                        <span className="tech-tag">Microservices</span>
+                        <span className="tech-tag">Serverless</span>
                     </div>
                 </section>
 
