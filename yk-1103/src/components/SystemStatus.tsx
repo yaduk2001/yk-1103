@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 export default function SystemStatus() {
     const [ping, setPing] = useState(12);
-    const [encryptionStatus, setEncryptionStatus] = useState('AES-256');
+    const [encryptionStatus, setEncryptionStatus] = useState('YK-1103');
 
     // Dynamic Ping Simulation
     useEffect(() => {
@@ -21,7 +21,7 @@ export default function SystemStatus() {
     }, []);
 
     return (
-        <div className="status-grid-container" style={{ maxWidth: '1000px', margin: '-1rem auto 2rem', padding: '0 1rem', position: 'relative', zIndex: 10 }}>
+        <div className="status-grid-container" style={{ maxWidth: '1000px', margin: '3rem auto 2rem', padding: '0 1rem', position: 'relative', zIndex: 10 }}>
             <div className="status-grid" style={{
                 display: 'grid',
                 gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',

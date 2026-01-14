@@ -26,82 +26,85 @@ export default function CreatorPage() {
                     <div className="creator-bio">
                         <div className="bio-intro">
                             <p className="bio-lead">
-                                MCA Graduate in Computer Science with an obsessive passion for building
-                                intelligent systems that push the boundaries of what&apos;s possible.
+                                Visionary Software Architect & Polymath Engineer. MCA Graduate with an unyielding
+                                obsession for engineering the impossible. Redefining the boundaries of
+                                Artificial Intelligence, Cryptography, and System Architecture to build
+                                the digital infrastructure of tomorrow.
                             </p>
                         </div>
 
                         {/* Skills Grid */}
                         <div className="skills-grid">
                             <div className="skill-card">
-                                <div className="skill-icon">🤖</div>
-                                <h3>Artificial Intelligence</h3>
+                                <div className="skill-icon">🧠</div>
+                                <h3>Cognitive Architectures</h3>
                                 <p>
-                                    Architect of neural networks and deep learning models. Passionate about
-                                    creating AI systems that learn, adapt, and solve complex real-world problems.
+                                    Pioneering the next generation of AI. expertise in Large Language Models (LLMs),
+                                    Generative Adversarial Networks (GANs), and Transformers. Building systems that don&apos;t
+                                    just compute, but <em>think</em>.
                                 </p>
                             </div>
 
                             <div className="skill-card">
-                                <div className="skill-icon">📊</div>
-                                <h3>Machine Learning</h3>
+                                <div className="skill-icon">⚡</div>
+                                <h3>High-Performance Computing</h3>
                                 <p>
-                                    Expert in building predictive models, recommendation engines, and
-                                    intelligent automation systems using cutting-edge ML algorithms.
+                                    Engineering ultra-low latency systems using Rust, C++, and WebAssembly.
+                                    Optimizing every clock cycle for maximum throughput and efficiency at scale.
                                 </p>
                             </div>
 
                             <div className="skill-card">
                                 <div className="skill-icon">🔐</div>
-                                <h3>Cryptography</h3>
+                                <h3>Quantum-Resistant Cryptography</h3>
                                 <p>
-                                    Creator of custom encryption algorithms. YK-1103 is the culmination of
-                                    years of research into secure, deterministic cryptographic systems.
+                                    Designing security protocols impervious to future threats. YK-1103 is just
+                                    the beginning—exploring post-quantum encryption standards and zero-knowledge proofs.
                                 </p>
                             </div>
 
                             <div className="skill-card">
-                                <div className="skill-icon">💻</div>
-                                <h3>Full-Stack Development</h3>
+                                <div className="skill-icon">🌐</div>
+                                <h3>Decentralized Web (Web3)</h3>
                                 <p>
-                                    From low-level system architecture to beautiful user interfaces—building
-                                    complete solutions from the ground up with Next.js, React, and Node.js.
+                                    Architecting trustless ecosystems. Expertise in Smart Contracts, Solidity,
+                                    and Distributed Ledger Technology to return power to the individual.
                                 </p>
                             </div>
 
                             <div className="skill-card">
                                 <div className="skill-icon">☁️</div>
-                                <h3>Cloud Architecture</h3>
+                                <h3>Hyper-Scale Cloud</h3>
                                 <p>
-                                    Designing scalable cloud infrastructure with Firebase, Supabase, and MongoDB.
-                                    Expert in serverless architectures and real-time data synchronization.
+                                    Orchestrating global infrastructure. Kubernetes mastery, multi-cloud strategies,
+                                    and serverless edge computing to ensure 99.999% availability worldwide.
                                 </p>
                             </div>
 
                             <div className="skill-card">
                                 <div className="skill-icon">📱</div>
-                                <h3>Mobile Development</h3>
+                                <h3>Omnichannel Experiences</h3>
                                 <p>
-                                    Building cross-platform mobile applications with Flutter and React Native.
-                                    Creating seamless experiences across iOS and Android platforms.
+                                    Crafting fluid, reality-bending interfaces across Mobile, Web, and AR/VR platforms
+                                    using Flutter, React Native, and Three.js. Design that feels like magic.
                                 </p>
                             </div>
 
                             <div className="skill-card">
                                 <div className="skill-icon">🗄️</div>
-                                <h3>Database Engineering</h3>
+                                <h3>Data Engineering</h3>
                                 <p>
-                                    Mastery of MongoDB, PostgreSQL, and Firebase Firestore. Optimizing queries,
-                                    designing schemas, and ensuring data integrity at scale.
+                                    Architecting petabyte-scale data pipelines. Advanced graph databases,
+                                    vector stores for AI memory, and real-time streaming analytics.
                                 </p>
                             </div>
 
                             <div className="skill-card">
                                 <div className="skill-icon">⚙️</div>
-                                <h3>DevOps & CI/CD</h3>
+                                <h3>DevSecOps Elite</h3>
                                 <p>
-                                    Automating deployments with Vite, implementing continuous integration pipelines,
-                                    and maintaining robust production environments.
+                                    Automating the unautomatable. Military-grade CI/CD pipelines,
+                                    infrastructure as code, and ruthless security testing at every stage of development.
                                 </p>
                             </div>
                         </div>
@@ -110,88 +113,90 @@ export default function CreatorPage() {
 
                 {/* Philosophy */}
                 <section className="content-section">
-                    <h2 className="section-title">Philosophy</h2>
+                    <h2 className="section-title">The Philosophy</h2>
                     <div className="philosophy-quote">
                         <blockquote>
-                            &ldquo;Technology should empower, not exploit. Every line of code I write
-                            is driven by a belief that privacy is a fundamental right, not a feature.&rdquo;
+                            &ldquo;I don&apos;t just write code; I write the future. In a world of digital noise,
+                            I engineer silence, security, and absolute sovereignty.&rdquo;
                         </blockquote>
                     </div>
                     <div className="text-block" style={{ marginTop: '2rem' }}>
                         <p>
-                            I designed YK-1103 not as a product, but as a personal standard for what
-                            encryption should be. No cloud dependencies. No hidden data collection.
-                            No keys stored in databases. Just pure, mathematical security that exists
-                            only in the moment you need it.
+                            Technology is the closest thing we have to magic, but it has been weaponized against the user.
+                            My mission is to reclaim it. YK-1103 is a manifesto written in mathematics—a declaration that
+                            privacy is not dead, it was just waiting for the right architect.
                         </p>
                         <p>
-                            In an era where every click is tracked and every message is analyzed,
-                            I believe in building tools that give power back to individuals.
-                            Technology should serve humanity, not surveil it.
+                            I build systems that defy convention. While others optimize for engagement, I optimize for empowerment.
+                            From the neural pathways of an AI to the bits of an encrypted key, every system I create is a
+                            testament to what technology <em>should</em> be: Unstoppable. Unbreakable. Yours.
                         </p>
                     </div>
                 </section>
 
                 {/* Technical Expertise */}
                 <section className="content-section">
-                    <h2 className="section-title">Technical Arsenal</h2>
+                    <h2 className="section-title">The Arsenal</h2>
                     <div className="tech-tags">
                         <span className="tech-tag">Python</span>
+                        <span className="tech-tag">Rust</span>
+                        <span className="tech-tag">C++</span>
+                        <span className="tech-tag">Go</span>
+                        <span className="tech-tag">Solidity</span>
+                        <span className="tech-tag">WebAssembly</span>
+                        <span className="tech-tag">TypeScript</span>
+                        <span className="tech-tag">JavaScript</span>
                         <span className="tech-tag">TensorFlow</span>
                         <span className="tech-tag">PyTorch</span>
-                        <span className="tech-tag">JavaScript</span>
-                        <span className="tech-tag">TypeScript</span>
+                        <span className="tech-tag">LangChain</span>
+                        <span className="tech-tag">OpenAI API</span>
+                        <span className="tech-tag">Hugging Face</span>
+                        <span className="tech-tag">Computer Vision</span>
+                        <span className="tech-tag">NLP</span>
                         <span className="tech-tag">React</span>
                         <span className="tech-tag">Next.js</span>
-                        <span className="tech-tag">Vite</span>
-                        <span className="tech-tag">Node.js</span>
-                        <span className="tech-tag">Express</span>
+                        <span className="tech-tag">Three.js</span>
+                        <span className="tech-tag">WebGL</span>
                         <span className="tech-tag">Flutter</span>
                         <span className="tech-tag">React Native</span>
+                        <span className="tech-tag">Node.js</span>
+                        <span className="tech-tag">Bun</span>
+                        <span className="tech-tag">Deno</span>
+                        <span className="tech-tag">GraphQL</span>
+                        <span className="tech-tag">gRPC</span>
+                        <span className="tech-tag">WebSockets</span>
+                        <span className="tech-tag">Docker</span>
+                        <span className="tech-tag">Kubernetes</span>
+                        <span className="tech-tag">Terraform</span>
+                        <span className="tech-tag">Ansible</span>
+                        <span className="tech-tag">AWS</span>
+                        <span className="tech-tag">Google Cloud</span>
+                        <span className="tech-tag">Azure</span>
                         <span className="tech-tag">Firebase</span>
                         <span className="tech-tag">Supabase</span>
                         <span className="tech-tag">MongoDB</span>
                         <span className="tech-tag">PostgreSQL</span>
                         <span className="tech-tag">Redis</span>
-                        <span className="tech-tag">GraphQL</span>
-                        <span className="tech-tag">REST APIs</span>
-                        <span className="tech-tag">Docker</span>
-                        <span className="tech-tag">Kubernetes</span>
-                        <span className="tech-tag">AWS</span>
-                        <span className="tech-tag">Google Cloud</span>
-                        <span className="tech-tag">Vercel</span>
+                        <span className="tech-tag">Cassandra</span>
+                        <span className="tech-tag">Vector DBs</span>
+                        <span className="tech-tag">Linux</span>
+                        <span className="tech-tag">Bash</span>
                         <span className="tech-tag">Git</span>
-                        <span className="tech-tag">CI/CD</span>
-                        <span className="tech-tag">Cryptography</span>
-                        <span className="tech-tag">Neural Networks</span>
-                        <span className="tech-tag">Deep Learning</span>
-                        <span className="tech-tag">Computer Vision</span>
-                        <span className="tech-tag">NLP</span>
-                        <span className="tech-tag">Data Science</span>
-                        <span className="tech-tag">Pandas</span>
-                        <span className="tech-tag">NumPy</span>
-                        <span className="tech-tag">Scikit-learn</span>
-                        <span className="tech-tag">Keras</span>
-                        <span className="tech-tag">OpenCV</span>
-                        <span className="tech-tag">Tailwind CSS</span>
-                        <span className="tech-tag">Material-UI</span>
-                        <span className="tech-tag">Framer Motion</span>
-                        <span className="tech-tag">WebSockets</span>
-                        <span className="tech-tag">WebRTC</span>
-                        <span className="tech-tag">System Design</span>
-                        <span className="tech-tag">Microservices</span>
-                        <span className="tech-tag">Serverless</span>
+                        <span className="tech-tag">Zero-Knowledge Proofs</span>
+                        <span className="tech-tag">Homomorphic Encryption</span>
+                        <span className="tech-tag">System Architecture</span>
+                        <span className="tech-tag">Applied Mathematics</span>
                     </div>
                 </section>
 
                 {/* Mission */}
                 <section className="content-section">
-                    <h2 className="section-title">Mission</h2>
+                    <h2 className="section-title">The Vision</h2>
                     <div className="mission-statement">
                         <p>
-                            To build intelligent systems that respect user privacy, leverage the power
-                            of AI and machine learning for good, and push the boundaries of what technology
-                            can achieve—one algorithm at a time.
+                            To architect a digital renaissance where intelligence meets integrity.
+                            To forge systems that are not only smarter but ethically superior.
+                            To push the human race forward, one line of code at a time.
                         </p>
                     </div>
                 </section>
@@ -200,7 +205,7 @@ export default function CreatorPage() {
                 <section className="creator-status">
                     <div className="status-terminal">
                         <span className="terminal-prompt">&gt;&gt;</span>
-                        <span className="terminal-text">STATUS: BUILDING THE FUTURE</span>
+                        <span className="terminal-text">STATUS: ARCHITECTING THE SINGULARITY</span>
                         <span className="terminal-cursor">_</span>
                     </div>
                 </section>
