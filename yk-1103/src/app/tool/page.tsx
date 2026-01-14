@@ -61,7 +61,7 @@ export default function ToolPage() {
                 <section className="page-hero">
                     <div className="status-badge">u
                         <span className="status-dot"></span>
-                        {mode === 'encrypt' ? 'ENCRYPTION MODE' : 's MODE'}
+                        {mode === 'encrypt' ? 'ENCRYPTION MODE' : 'DECRYPTION MODE'}
                     </div>
                     <h1 className="page-title">
                         {mode === 'encrypt' ? 'Encrypt Your Data' : 'Decrypt Your Data'}
