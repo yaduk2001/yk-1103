@@ -1322,6 +1322,15 @@ body {
 }
 
 @media (max-width: 768px) {
+  .tool-section {
+    padding: 0 1rem 4rem;
+    /* Reduced horizontal padding */
+  }
+
+  .tool-card {
+    padding: 1rem;
+    /* Reduced card padding */
+  }
 
   .tool-textarea,
   .tool-input {
