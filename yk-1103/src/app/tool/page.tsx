@@ -5,7 +5,8 @@ import { generateKey, encrypt, decrypt } from '@/lib/yadu-core';
 
 export default function ToolPage() {
     const [mode, setMode] = useState<'encrypt' | 'decrypt'>('encrypt');
-    const [input, setInput] = useState('');
+    const [encryptInput, setEncryptInput] = useState('');
+    const [decryptInput, setDecryptInput] = useState('');
     const [keyInput, setKeyInput] = useState('');
     const [output, setOutput] = useState('');
     const [generatedKey, setGeneratedKey] = useState<string | null>(null);
@@ -20,7 +21,7 @@ export default function ToolPage() {
         try {
             if (mode === 'encrypt') {
                 const key = generateKey().raw;
-                const result = encrypt(input, key);
+                const result = encrypt(encryptInput, key);
                 setOutput(result);
                 setGeneratedKey(key);
             } else {
@@ -28,7 +29,7 @@ export default function ToolPage() {
                     setError("Decryption key is required.");
                     return;
                 }
-                const result = decrypt(input.trim(), keyInput.trim());
+                const result = decrypt(decryptInput.trim(), keyInput.trim());
                 if (result === null) {
                     setError("Decryption failed. The key is incorrect or the data is corrupted.");
                     setOutput('');
@@ -59,7 +60,7 @@ export default function ToolPage() {
             <div className="page-content">
                 {/* Hero */}
                 <section className="page-hero">
-                    <div className="status-badge">u
+                    <div className="status-badge">
                         <span className="status-dot"></span>
                         {mode === 'encrypt' ? 'ENCRYPTION MODE' : 'DECRYPTION MODE'}
                     </div>
@@ -102,8 +103,8 @@ export default function ToolPage() {
                                 <span className="card-badge">REQUIRED</span>
                             </div>
                             <textarea
-                                value={input}
-                                onChange={(e) => setInput(e.target.value)}
+                                value={mode === 'encrypt' ? encryptInput : decryptInput}
+                                onChange={(e) => mode === 'encrypt' ? setEncryptInput(e.target.value) : setDecryptInput(e.target.value)}
                                 placeholder={mode === 'encrypt'
                                     ? 'Enter the message you want to encrypt...'
                                     : 'Paste the encrypted data here...'}
@@ -133,7 +134,7 @@ export default function ToolPage() {
                         {/* Action Button */}
                         <button
                             onClick={handleAction}
-                            disabled={!input.trim()}
+                            disabled={mode === 'encrypt' ? !encryptInput.trim() : !decryptInput.trim()}
                             className="action-btn"
                         >
                             <span className="action-icon">{mode === 'encrypt' ? '⚡' : '🔑'}</span>
