@@ -81,14 +81,30 @@ export default function ToolPage() {
                         {/* Mode Toggle */}
                         <div className="mode-toggle">
                             <button
-                                onClick={() => { setMode('encrypt'); setOutput(''); setError(null); setGeneratedKey(null); }}
+                                onClick={() => {
+                                    setMode('encrypt');
+                                    setOutput('');
+                                    setError(null);
+                                    setGeneratedKey(null);
+                                    setEncryptInput('');
+                                    setDecryptInput('');
+                                    setKeyInput('');
+                                }}
                                 className={`mode-btn ${mode === 'encrypt' ? 'active' : ''}`}
                             >
                                 <span className="mode-icon">🔒</span>
                                 <span>Encrypt</span>
                             </button>
                             <button
-                                onClick={() => { setMode('decrypt'); setOutput(''); setError(null); setGeneratedKey(null); }}
+                                onClick={() => {
+                                    setMode('decrypt');
+                                    setOutput('');
+                                    setError(null);
+                                    setGeneratedKey(null);
+                                    setEncryptInput('');
+                                    setDecryptInput('');
+                                    setKeyInput('');
+                                }}
                                 className={`mode-btn ${mode === 'decrypt' ? 'active' : ''}`}
                             >
                                 <span className="mode-icon">🔓</span>
